@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Front-end developer building fast, accessible, responsive websites with HTML, CSS and JavaScript." />
+  <title>ISAAK SAGWE — Front-End Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="ISAAK SAGWE home">IA<span>.</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <!-- Background Animated Blobs -->
+      <div class="bg-animation" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <!-- LEFT SIDE: PICTURE & TEXT -->
+        <div class="hero-left">
+          <img src="image.jpg" alt="Isaak Sagwe" class="profile-pic" />
+          <div class="content-wrapper">
+            <p class="eyebrow">Front-end developer · Available for freelance</p>
+            <h1>I build fast, accessible, <span class="accent">responsive</span> websites.</h1>
+            <p class="lede">
+              I turn designs into clean HTML, CSS and JavaScript interfaces that work on
+              phones, tablets and desktops. Focused on responsive layouts, accessibility
+              and maintainable code.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#projects">View projects</a>
+              <a class="btn btn-ghost" href="#contact">Contact me</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: CODE BLOCK -->
+        <div class="hero-card" aria-hidden="true">
+          <div class="code-line">&lt;section class="hero"&gt;</div>
+          <div class="code-line">&nbsp;&nbsp;&lt;h1&gt;Responsive by default&lt;/h1&gt;</div>
+          <div class="code-line">&nbsp;&nbsp;&lt;p&gt;Mobile-first. Accessible. Fast.&lt;/p&gt;</div>
+          <div class="code-line">&lt;/section&gt;</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Projects</h2>
+            <p>Concept and practice projects built to demonstrate front-end skills. Replace these with your own live demos and repos as you build them.</p>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb thumb-1"><span>Lumen SaaS</span></div>
+            <div class="project-body">
+              <p class="project-kicker">Concept project</p>
+              <h3>Lumen SaaS Landing Page</h3>
+              <p>Responsive SaaS landing page with mobile navigation, pricing cards, feature grid and accessible contact form.</p>
+              <ul class="tags"><li>HTML</li><li>CSS Grid</li><li>JavaScript</li></ul>
+              <div class="project-links"><a href="#">Live demo</a><a href="#">Code</a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb thumb-2"><span>TaskFlow</span></div>
+            <div class="project-body">
+              <p class="project-kicker">Concept project</p>
+              <h3>TaskFlow Dashboard UI</h3>
+              <p>Responsive dashboard interface with CSS Grid, filterable task cards and localStorage persistence.</p>
+              <ul class="tags"><li>JavaScript</li><li>localStorage</li><li>Responsive UI</li></ul>
+              <div class="project-links"><a href="#">Live demo</a><a href="#">Code</a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb thumb-3"><span>Brew & Co.</span></div>
+            <div class="project-body">
+              <p class="project-kicker">Concept project</p>
+              <h3>Brew & Co. Café Website</h3>
+              <p>Local business site with responsive menu, gallery, opening hours and click-to-call contact section.</p>
+              <ul class="tags"><li>Mobile-first</li><li>Accessibility</li><li>CSS</li></ul>
+              <div class="project-links"><a href="#">Live demo</a><a href="#">Code</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <p>Tools I use to build and ship responsive front-end interfaces.</p>
+        
+        <!-- 3D Canvas Container -->
+        <div id="skills-3d-container" aria-hidden="true"></div>
+        
+        <!-- Accessible fallback for Screen Readers -->
+        <ul class="sr-only">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive Design</li>
+          <li>CSS Grid & Flexbox</li><li>Accessibility</li><li>Git & GitHub</li>
+          <li>Figma to code</li><li>Netlify / GitHub Pages</li><li>React</li>
+          <li>Three.js</li><li>UI/UX Design</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2>About</h2>
+          <p>I’m a front-end developer focused on clean, responsive interfaces. I build with semantic HTML, modern CSS and vanilla JavaScript so pages load fast and work without unnecessary dependencies.</p>
+          <p>I’m currently available for freelance work: landing pages, portfolio sites, small business websites and front-end fixes.</p>
+        </div>
+        <div class="about-card">
+          <h3>What I can do</h3>
+          <ul>
+            <li>Convert Figma or screenshots into responsive HTML/CSS</li>
+            <li>Fix mobile layout and accessibility issues</li>
+            <li>Build landing pages and small business sites</li>
+            <li>Add interactive JavaScript features</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Need a responsive front-end build or a fix for an existing site? Send a short message with your goal, deadline and budget range.</p>
+          <p>Email: <a href="mailto:sagweisaak345@gmail.com">sagweisaak345@gmail.com</a></p>
+          <p>Phone: <a href="tel:+254702290192">+254 702 290 192</a></p>
+        </div>
+        <form class="contact-form">
+  <label>Name<input type="text" name="name" required /></label>
+  <label>Email<input type="email" name="email" required /></label>
+  <label>Message<textarea name="message" required></textarea></label>
+  <button class="btn" type="submit">Send message</button>
+</form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Isaak Sagwe. Built with HTML, CSS and JavaScript.</span>
+      <span>Available for freelance work.</span>
+    </div>
+  </footer>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/renderers/CSS3DRenderer.js"></script>
+  
+  <!-- Custom Script -->
+   <!-- Supabase Client -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+</body>
+</html>
